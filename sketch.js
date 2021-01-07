@@ -58,7 +58,7 @@ function setup() {
 	Engine.run(engine);
 	rectangle2.shapeColor = "red";
 	
-	rectangle3 = Bodies.rectangle(500,605,20,100,{isStatic:true});
+	rectangle3 = Bodies.rectangle(500,605,20,100,{isStatic:true});  
 	World.add(world,rectangle3);
 	Engine.run(engine);
 	rectangle3.shapeColor = "red";
